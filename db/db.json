@@ -1,52 +1,127 @@
 {
-  "toys": [
+  "tops": [
     {
-      "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "id": "1",
+      "description": "Cotton T-shirt",
+      "price": 19.99,
+      "sizes": [
+        {
+          "size": "Small",
+          "inStock": false
+        },
+        {
+          "size": "Med",
+          "inStock": true
+        },
+        {
+          "size": "Large",
+          "inStock": true
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1622445272461-c6580cab8755?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      "info": "This classic cotton t-shirt is perfect for everyday wear."
     },
     {
-      "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "id": "2",
+      "description": "Hoodie",
+      "price": 39.99,
+      "sizes": [
+        {
+          "size": "Small",
+          "inStock": true
+        },
+        {
+          "size": "Med",
+          "inStock": false
+        },
+        {
+          "size": "Large",
+          "inStock": true
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1673092147872-5ddb03194341?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      "info": "Stay cozy and stylish with this comfortable hoodie."
     },
     {
-      "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "id": "3",
+      "description": "Long Sleeve",
+      "price": 29.99,
+      "sizes": [
+        {
+          "size": "Small",
+          "inStock": true
+        },
+        {
+          "size": "Med",
+          "inStock": true
+        },
+        {
+          "size": "Large",
+          "inStock": false
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1578342124892-995ef5ab1a71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80",
+      "info": "Stay stylish and warm with this loose-fit cotton blend longsleeve."
+    }
+  ],
+  "bottoms": [
+    {
+      "id": "4",
+      "description": "Jeans",
+      "price": 49.99,
+      "sizes": [
+        {
+          "size": "Small",
+          "inStock": true
+        },
+        {
+          "size": "Med",
+          "inStock": true
+        },
+        {
+          "size": "Large",
+          "inStock": true
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "info": "These jeans are the perfect addition to your wardrobe."
     },
     {
-      "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "id": "5",
+      "description": "Shorts",
+      "price": 29.99,
+      "sizes": [
+        {
+          "size": "Small",
+          "inStock": true
+        },
+        {
+          "size": "Med",
+          "inStock": true
+        },
+        {
+          "size": "Large",
+          "inStock": true
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1624005340926-a4e797e76da4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=944&q=80",
+      "info": "Stay cool and comfortable with these stylish shorts."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "6",
+      "description": "Tote Bag",
+      "price": 9.99,
+      "image": "https://images.unsplash.com/photo-1578237493287-8d4d2b03591a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=626&q=80",
+      "info": "Canvas tote bag, perfect for everyday use"
     },
     {
-      "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
-    },
-    {
-      "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
-    },
-    {
-      "id": 7,
-      "name": "Hamm!!!!",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
-    },
-    {
-      "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "id": "7",
+      "description": "Sunglasses",
+      "price": 19.99,
+      "image": "https://images.unsplash.com/photo-1552337557-45792b252a2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      "info": "Shade your eyes with our stylish sunglasses"
     }
   ]
 }
