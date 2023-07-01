@@ -7,7 +7,7 @@
       "sizes": [
         {
           "size": "Small",
-          "inStock": true
+          "inStock": false
         },
         {
           "size": "Med",
